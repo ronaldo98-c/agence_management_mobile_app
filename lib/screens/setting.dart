@@ -28,7 +28,7 @@ class SettingScreen extends StatelessWidget {
                   fontWeight: FontWeight.bold),
             ),
             Text(
-              "Options de configuration de l'application",
+              "Option de configuration de l'application",
               style: TextStyle(
                 color: Constants.blackColor.withOpacity(.3),
               ),
