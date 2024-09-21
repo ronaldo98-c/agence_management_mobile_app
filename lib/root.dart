@@ -19,10 +19,6 @@ class _RootState extends State<Root> {
       initialIndex:
           0, // Index initial pour sélectionner le premier onglet (CarPage)
       child: Scaffold(
-        /* appBar: AppBar(
-          title: null,
-          elevation: 0, 
-        ),*/
         body: TabBarView(
           children: [
             HomeScreen(), // Page pour l'onglet Voiture (affichée par défaut)

@@ -20,7 +20,6 @@ class PlantWidget extends StatelessWidget {
 
     return GestureDetector(
       onTap: () { 
-        debugPrint("Tapped on item $index");
         Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) => ReservationDetailPage(plantId: plantList[index].plantId)
