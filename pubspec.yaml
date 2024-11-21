@@ -30,8 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   flutter_localizations:  # Ajoutez cette ligne
     sdk: flutter 
+=======
+>>>>>>> 39090252c185e507adfb5d0b1a232ecb38b55620
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -52,9 +55,12 @@ dependencies:
   fl_chart: ^0.69.0
   syncfusion_flutter_datepicker: ^26.2.13
   page_transition: ^2.1.0
+<<<<<<< HEAD
   share_plus: ^10.1.2
   intl: ^0.19.0
   intl_utils: ^2.8.7
+=======
+>>>>>>> 39090252c185e507adfb5d0b1a232ecb38b55620
 
 dev_dependencies:
   flutter_test:
@@ -72,7 +78,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+<<<<<<< HEAD
   generate: true 
+=======
+>>>>>>> 39090252c185e507adfb5d0b1a232ecb38b55620
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -82,10 +91,17 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/logo-update.png
+<<<<<<< HEAD
     - assets/images/baniere.png
     - assets/images/logo.png
     - assets/expenses_year_data.json
     - assets/expenses_days_data.json
+=======
+    - assets/images/verified.png
+    - assets/images/baniere.png
+    - assets/images/profile.jpg
+    - assets/images/logo.png
+>>>>>>> 39090252c185e507adfb5d0b1a232ecb38b55620
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

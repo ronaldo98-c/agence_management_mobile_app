@@ -18,7 +18,7 @@ class _ExpenseIncomeDataState extends State<ExpenseIncomeData> {
         expenseIncomeContainer(
           context,
           Icons.arrow_upward,
-          "Entrées",
+          "Reservations",
           4100.00,
           Constants.darkBlueColor,
           Colors.white,
@@ -27,7 +27,7 @@ class _ExpenseIncomeDataState extends State<ExpenseIncomeData> {
         expenseIncomeContainer(
           context,
           Icons.arrow_downward,
-          "Kilos",
+          "Clients",
           15.15,
           Colors.white,
           Constants.darkBlueColor,

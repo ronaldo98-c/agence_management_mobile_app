@@ -81,8 +81,8 @@ class _StatisticScreenState extends State<StatisticScreen> {
               SizedBox(
                 height: 10.h
               ),
-              BarChartSample(title: 'Entrée hebdomadaire', jsonString:'expenses_days_data.json', period: Constants.days) ,
-              BarChartSample(title: 'Entrée annuelle', jsonString:'expenses_year_data.json', period: Constants.months)
+              BarChartSample(title: 'Reservation hebdomadaire', jsonString:'expenses_days_data.json', period: Constants.days) ,
+              BarChartSample(title: 'Reservation annuelle', jsonString:'expenses_year_data.json', period: Constants.months)
             ],
           ),
         )

@@ -55,7 +55,7 @@ class _ReservationScreenState extends State<ReservationScreen> {
                       Expanded( // Utilisez Expanded pour le TextField
                         child: TextField(
                           decoration: InputDecoration(
-                            hintText: 'Entrez la réference de la réservation...',
+                            hintText: 'Entrez la réference de la réservations...',
                             prefixIcon: const Icon(Icons.search, color: Colors.grey),
                             filled: true,
                             fillColor: Colors.grey[200], // Correction ici

@@ -55,6 +55,8 @@ class _ReservationDetailScreenState extends State<ReservationDetailScreen> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         buildReservationRow('Reference', 'lt0215633015'),
+        buildReservationRow('Total vêtement', '10'),
+        buildReservationRow('Total kilo', '2.5 kilos'),
         buildReservationRow('Methode de paiement', 'En cash'),
         buildReservationRow('Status de paiement', 'Soldé'),
         buildReservationRow('Avance', '0 Xfa'),
